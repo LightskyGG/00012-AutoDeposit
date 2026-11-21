@@ -1,0 +1,14 @@
+## Interface: 120105
+## ExcludeLoadGameType: plunderstorm, wowhack
+## Title: AutoDeposit
+## Notes: Deposits gold into the warbank when you open the bank.
+## Version: 2026.11.21
+## Author: LightskyGG
+## SavedVariables: AUTODEPOSIT_CONFIG, AUTODEPOSIT_DATA
+## IconTexture: Interface\ICONS\inv_cosmicvoid_orb
+## AddonCompartmentFunc: AutoDeposit_AddonCompartmentCallback
+
+Data\Defaults.lua
+Core\Initialize.lua
+Core\Settings.lua
+Core\AutoDeposit.lua
